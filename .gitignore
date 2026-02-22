@@ -214,3 +214,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# تجاهل ملفات قاعدة بيانات VS Code المزعجة
+*.db
+*.db-shm
+*.db-wal
+
+# تجاهل إعدادات الإضافات الخاصة بـ C++
+.vscode/c_cpp_properties.json
+
+# تجاهل مجلد البيئة الافتراضية القديم (إذا قررت حذفه لاحقاً)
+.venv/
+pyvenv.cfg
+
+# تجاهل ملفات Conda المؤقتة
+*.sh
